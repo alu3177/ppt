@@ -5,6 +5,7 @@
 #	alu0100256543@ull.edu.es
 #
 #	PRÁCTICA 2 LPP: Juego Piedra, Papel, Tijeras
+#					Versión implementada con las sentencias de control CASE y WHEN
 #
 
 EMPATE = "      Empate"
