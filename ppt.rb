@@ -6,13 +6,13 @@
 #	alu0100256543@ull.edu.es
 #
 #	PRÁCTICA 2 LPP: Juego Piedra, Papel, Tijeras
-#					Versión implementada con las sentencias de control CASE y WHEN
+#           Versión implementada con las sentencias de control CASE y WHEN
 #
 
 EMPATE = "                            Empate..."
 WIN = "                         Has Ganado!"
 LOOSE = "                        Otra vez será"
-$machine = `hostname`.strip # Obtenemos el nombre de la máquina (strip elimina \n)
+machine = `hostname`.strip # Obtenemos el nombre de la máquina (strip elimina \n)
 
 jugadas = [:piedra, :papel, :tijeras]
 
